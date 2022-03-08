@@ -53,6 +53,7 @@ $(function() {
     $('#uploadImgBtn').on('click', function(e) {
         e.preventDefault()
         console.log(e)
+            //获取base64 格式图片数据 
         let data = cropper.getCroppedCanvas({
             width: 100,
             height: 100
